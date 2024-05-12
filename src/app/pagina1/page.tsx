@@ -1,4 +1,4 @@
-import Template from './pagina1'
+import Template from './pagina1.html'
 
 function testPage () {
     const text = "some text";
