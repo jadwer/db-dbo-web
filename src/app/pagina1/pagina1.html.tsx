@@ -47,16 +47,6 @@ const Template = (props: any) => (
         data-bs-target="#offcanvasExample">
         Toggle offcanvas
       </button>
-      <a
-        id="popoverButton"
-        className="text-success"
-        href="#"
-        role="button"
-        data-bs-toggle="popover"
-        title="Custom popover"
-        data-bs-content="This is a Bootstrap popover.">
-        Example popover
-      </a>
 
       <div
         className="offcanvas offcanvas-end"
