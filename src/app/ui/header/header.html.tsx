@@ -3,7 +3,7 @@ import Breadcrumb from "../breadcrumb/breadcrumb.html";
 const Header = (props: any) => {
   return (
     <header>
-      <div className="d-flex justify-content-between align-items-md-center pb-3 border-bottom">
+      <div className="d-flex justify-content-around align-items-md-center pb-3 border-bottom">
         <button
           type="button"
           className="btn btn-primary me-3"
@@ -21,12 +21,6 @@ const Header = (props: any) => {
           </a>
         </h1>
         <div>La app de las cuentas claras</div>
-        <a
-          href="https://github.com/twbs/examples/tree/main/sass-js/"
-          target="_blank"
-          rel="noopener">
-          View on GitHub
-        </a>
       </div>
       <div className="mb-5 border-bottom">
         <Breadcrumb
