@@ -18,13 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <>
       <Header />
       <Nav />
         {children}
         <BootStrapClient />
       <Footer />
-    </>
       </body>
     </html>
   );
